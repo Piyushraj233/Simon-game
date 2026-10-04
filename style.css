@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    /* cool blue gradient */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.green {
+    background-color: #5ca7bd;
+}
+
+.purple {
+    background-color: #7e9fff;
+}
+
+.flash {
+    background-color: white;
+}
+
+
+/* .userflash {
+    background-color: ;
+} */
+
+button {
+    display: block;
+    margin: 20px auto;
+    /* centers the button */
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    /* green */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    /* darker green on hover */
+    transform: scale(1.05);
+    /* slight zoom effect */
+}
+
+button:active {
+    background-color: #3e8e41;
+    /* pressed effect */
+}
+
+body.game-over {
+    background: linear-gradient(135deg, #ff0000, #990000);
+    /* red gradient */
+    transition: background 0.5s ease;
+}
